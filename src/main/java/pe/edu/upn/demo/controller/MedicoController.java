@@ -25,6 +25,7 @@ public class MedicoController {
 			model.addAttribute("medicos", medicos);
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("....................");
 		}
 		
 		
